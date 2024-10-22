@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* :root {
+    --colorL: "";
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@layer components {
+    .header-container {
+        @apply relative z-10 mx-auto py-4 min-h-[10vh] shadow;
+    }
+
+    .nav {
+        @apply m-auto flex max-w-[85vw] items-center justify-between gap-6;
+    }
+
+    .menu-items {
+        @apply uppercase relative pb-2 font-medium font-afacad;
+    }
+
+    .menu-items:hover::before {
+        content: "";
+        position: absolute;
+        background-color: #FF7C2A;
+        padding: 1.5px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transition: 3s ease-in-out;
+    }
+
+    .container {
+        @apply max-w-[85vw] mx-auto;
+    }
+
+    .input {
+        @apply max-w-20;
+    }
+}
+
+@layer utilities {
+    .others {
+        @apply sm:px-16 px-8 sm:py-24 py-12;
+    }
+}
