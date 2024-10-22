@@ -12,6 +12,19 @@ Using the latest technologies to recreate frontend websites and some useful proj
 - [Recreated eCommerce Site](), check the `fullstack web app` [here]()
 - [Small projects]() frontendmaster
 
+## To get started:
+
+- install
+
+```shell
+git clone https://github.com/danieloladele7/frontend-projects
+cd frontend-projects
+npm install
+npm run dev
+```
+
+- go to: `http://localhost:5173/`
+
 ## Technologies:
 
 - Figma
