@@ -10,7 +10,7 @@ Using the latest technologies to recreate frontend websites and some useful proj
 - [Recreated Calligraphy Artist]()
 - [React Portfolio](), check the `fullstack web app` [here]()
 - [Recreated eCommerce Site](), check the `fullstack web app` [here]()
-- [Small projects]() frontend
+- [Small projects]() frontendmaster
 
 ## Technologies:
 
@@ -24,3 +24,6 @@ Using the latest technologies to recreate frontend websites and some useful proj
 ## Credit to:
 
 - [Awwwards](https://www.awwwards.com/)
+- [uiuxexperts](https://uiuxexperts.github.io/portfolio/portfolio.html)
+- [websitedemos](https://websitedemos.net)
+- [frontend master](https://www.frontendmentor.io/)
