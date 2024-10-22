@@ -14,7 +14,8 @@ Using the latest technologies to recreate frontend websites and some useful proj
 
 ## To get started:
 
-- install
+- install [nodejs](https://nodejs.org/en)
+- On the comman line
 
 ```shell
 git clone https://github.com/danieloladele7/frontend-projects
@@ -24,6 +25,7 @@ npm run dev
 ```
 
 - go to: `http://localhost:5173/`
+- Check out the Projects documentations [here]()
 
 ## Technologies:
 
